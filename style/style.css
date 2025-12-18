@@ -16,6 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin:0px;
+    color:#FFFFFF
 }
 .Header{
     background-color: rgba(75, 46, 43, 0.75);
@@ -32,6 +33,8 @@ body{
 .Header .Right-Links{
     display:flex;
     gap:30px;
+    a:active {color: #D97742; text-decoration: underline; }
+    a:hover {color: #C8A27A; text-decoration: none; }
 }
 
 .Footer{
@@ -47,8 +50,38 @@ body{
 .Footer .Right-Links{
     display:flex;
 }
+/* About-Us Section */
+.First-Info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:50px;
+    background-color: #F7F3EE;
+}
 
+.About-Info-Box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 600px;
+    height: auto;
+    text-align: left;
+    color: #2B2B2B;
+}
+.rounded{
+    border-radius: 5px;
+    border-color:#C8A27A;
+    margin: 5px;
+}
+.About-Us-Img{
+    width: 400px;
+    margin: 0px 100px 0 100px;
+}
+
+/* Others */
 a,ul{
     text-decoration: none;
     list-style: none;
+    color:inherit;
 }
