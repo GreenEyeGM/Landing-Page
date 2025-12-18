@@ -33,8 +33,6 @@ body{
 .Header .Right-Links{
     display:flex;
     gap:30px;
-    a:active {color: #D97742; text-decoration: underline; }
-    a:hover {color: #C8A27A; text-decoration: none; }
 }
 
 .Footer{
@@ -69,7 +67,10 @@ body{
     text-align: left;
     color: #2B2B2B;
 }
-.rounded{
+.About-Us-Title{
+    color:#4B2E2B;
+}
+.About-Divider{
     border-radius: 5px;
     border-color:#C8A27A;
     margin: 5px;
@@ -78,10 +79,65 @@ body{
     width: 400px;
     margin: 0px 100px 0 100px;
 }
+.Sign-Up{
+    border:1px solid #2B2B2B;
+    border-radius: 3px;
+    background-color:#D97742;
+    color:#FFFFFF;
+}
+.About-Info-Box button:hover{
+    background-color: #C8A27A;
+}
+
+/* Products Section */
+.Second-Info{
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+
+.Products-Box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px 0px 10px 0;
+}
+.Products-Box img{
+    width: 300px;
+    height: 200px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 400px;
+    height: auto;
+    display:flex;
+    background-color: #F7F3EE;
+    border:1px solid #C8A27A;
+    border-radius: 12px;
+}
+.Product-Title{
+    color:#4B2E2B;
+}
+.Product-Text{
+    color:#6B6B6B
+}
 
 /* Others */
 a,ul{
     text-decoration: none;
     list-style: none;
     color:inherit;
+}
+a:active{
+    color: #D97742;
+    text-decoration: underline; 
+}
+a:hover{
+    color: #C8A27A; 
+    text-decoration: none; 
 }
