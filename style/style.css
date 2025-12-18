@@ -1,0 +1,54 @@
+*{
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* Header and Footer */
+.Header, .Footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+.Header{
+    background-color: rgba(75, 46, 43, 0.75);
+}
+.Company-Logo-In-Header{
+    width: 100px;
+    height: auto;
+}
+.Header .Left-Links{
+    display:flex;
+    align-items: center;
+
+}
+.Header .Right-Links{
+    display:flex;
+    gap:30px;
+}
+
+.Footer{
+    background-color: #2E1C1A;
+    justify-content: center;
+}
+
+.Footer .Center-Links{
+    display:flex;
+
+}
+
+.Footer .Right-Links{
+    display:flex;
+}
+
+a,ul{
+    text-decoration: none;
+    list-style: none;
+}
