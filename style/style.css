@@ -162,6 +162,38 @@ body{
   font-size: 16px;
 }
 
+/* Call Us Section */
+
+.Fourth-Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#FFFFFF;
+    margin: 20px;
+}
+
+.Call-Us{
+    background-color: #D97742;
+    color:#FFFFFF;
+    height: auto;
+    width: 700px;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+.Call-Us-Button{
+    background-color: #4B2E2B;
+    border: solid 1px;
+    border-radius: 10px;
+    padding:10px
+}
+.Call-Us-Button:hover{
+    background-color: #2E1C1A;
+}
+
+
 /* Others */
 a,ul{
     text-decoration: none;
