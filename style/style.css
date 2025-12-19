@@ -7,6 +7,7 @@ html{
 body{
     display:flex;
     flex-direction: column;
+    margin:0px;
 }
 
 
@@ -43,13 +44,11 @@ body{
 }
 
 .Footer .Center-Links{
-    display:flex;
-
+    color:#C8A27A
 }
 
-.Footer .Right-Links{
-    display:flex;
-}
+
+
 /* About-Us Section */
 .First-Info{
     display:flex;
@@ -57,6 +56,7 @@ body{
     justify-content: space-around;
     gap:50px;
     background-color: #F7F3EE;
+    padding:10px 0px 10px 0px;
 }
 
 .About-Info-Box{
@@ -97,6 +97,7 @@ body{
     flex-direction: column;
     text-align: center;
     background-color: #FFFFFF;
+    padding:10px 0px 10px 0px;
 }
 
 .Products-Box{
@@ -136,6 +137,7 @@ body{
     text-align: center;
     background-color: #4B2E2B;
     color:#FFFFFF;
+    padding:10px 0px 10px 0px;
 }
 
 .Reviews-Boxes{
@@ -172,10 +174,11 @@ body{
     text-align: center;
     color:#FFFFFF;
     margin: 20px;
+    padding:10px 0px 10px 0px;
 }
 
 .Call-Us{
-    background-color: #D97742;
+    background-color: #9c9289;
     color:#FFFFFF;
     height: auto;
     width: 700px;
@@ -184,13 +187,14 @@ body{
 }
 
 .Call-Us-Button{
-    background-color: #4B2E2B;
+    background-color: #C8A27A;
     border: solid 1px;
     border-radius: 10px;
     padding:10px
+    
 }
 .Call-Us-Button:hover{
-    background-color: #2E1C1A;
+    background-color: #D97742;
 }
 
 
